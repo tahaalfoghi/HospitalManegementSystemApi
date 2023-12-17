@@ -1,5 +1,5 @@
-# First Asp.Net Core Web Api Project 
-Using Middleware, RepositoryPattern, ActionFilter
+#Asp.Net Core (HospialManagementSystem) Web Api Project 
+Using Middleware, RepositoryPattern, ActionFilter DBFirst.
 
 #DataBase Diagram
 
