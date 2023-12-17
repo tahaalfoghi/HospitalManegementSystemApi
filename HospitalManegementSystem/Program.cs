@@ -21,6 +21,7 @@ namespace HospitalManegementSystem
             builder.Services.AddDbContext<AppDbContext>(
                 op=>op.UseSqlServer(builder.Configuration.GetConnectionString("constr")));
             builder.Services.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>));
+            builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
