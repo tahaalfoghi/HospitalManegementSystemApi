@@ -2,6 +2,7 @@
 using HospitalManegementSystem.ActionFilters;
 using HospitalManegementSystem.Data.Models;
 using HospitalManegementSystem.Services;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalManegementSystem.Controllers
@@ -117,5 +118,6 @@ namespace HospitalManegementSystem.Controllers
 
             return Ok();
         }
+       
     }
 }

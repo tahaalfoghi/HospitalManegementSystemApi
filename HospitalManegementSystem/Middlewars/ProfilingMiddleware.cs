@@ -2,7 +2,7 @@
 
 namespace HospitalManegementSystem.Middlewars
 {
-    public class ProfilingMiddleware:IMiddleware
+    public class ProfilingMiddleware
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<ProfilingMiddleware> _logger;
@@ -13,7 +13,7 @@ namespace HospitalManegementSystem.Middlewars
             _logger = logger;
         }
 
-        public async Task InvokeAsync(HttpContext context, RequestDelegate next)
+        public async Task InvokeAsync(HttpContext context)
         {
             var stopwatch = new Stopwatch();
             stopwatch.Start();
