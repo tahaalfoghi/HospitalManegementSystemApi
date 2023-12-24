@@ -13,7 +13,4 @@ public partial class WardDTO
 
     public int HospitalId { get; set; }
 
-    public virtual Hospital Hospital { get; set; } = null!;
-
-    public virtual ICollection<Pateint> Pateints { get; set; } = new List<Pateint>();
 }

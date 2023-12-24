@@ -15,11 +15,4 @@ public partial class DoctorDTO
 
     public int HospitalId { get; set; }
 
-    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
-
-    public virtual ICollection<DoctorPateint> DoctorPateints { get; set; } = new List<DoctorPateint>();
-
-    public virtual Hospital Hospital { get; set; } = null!;
-
-    public virtual ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
 }

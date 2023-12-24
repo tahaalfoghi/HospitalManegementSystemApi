@@ -13,7 +13,5 @@ public partial class AppointmentDTO
 
     public DateTime AppointmentDate { get; set; }
 
-    public virtual Doctor Doctor { get; set; } = null!;
-
-    public virtual Pateint Pateint { get; set; } = null!;
+   
 }

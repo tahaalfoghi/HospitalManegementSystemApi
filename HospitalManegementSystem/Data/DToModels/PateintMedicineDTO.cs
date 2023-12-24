@@ -11,7 +11,5 @@ public partial class PateintMedicineDTO
 
     public int MedicineId { get; set; }
 
-    public virtual Medicine Medicine { get; set; } = null!;
-
-    public virtual Pateint Pateint { get; set; } = null!;
+   
 }

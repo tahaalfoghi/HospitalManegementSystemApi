@@ -13,9 +13,5 @@ public partial class PrescriptionDTO
 
     public DateTime PrescriptionDate { get; set; }
 
-    public virtual Doctor Doctor { get; set; } = null!;
 
-    public virtual Pateint Pateint { get; set; } = null!;
-
-    public virtual ICollection<PrescriptionMedicine> PrescriptionMedicines { get; set; } = new List<PrescriptionMedicine>();
 }

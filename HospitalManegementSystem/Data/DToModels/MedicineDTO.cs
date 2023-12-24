@@ -17,7 +17,5 @@ public partial class MedicineDTO
 
     public decimal Price { get; set; }
 
-    public virtual ICollection<PateintMedicine> PateintMedicines { get; set; } = new List<PateintMedicine>();
-
-    public virtual ICollection<PrescriptionMedicine> PrescriptionMedicines { get; set; } = new List<PrescriptionMedicine>();
+   
 }

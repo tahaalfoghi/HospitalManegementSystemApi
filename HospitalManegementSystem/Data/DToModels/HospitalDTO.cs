@@ -13,9 +13,5 @@ public partial class HospitalDTO
 
     public long Phone { get; set; }
 
-    public virtual ICollection<Doctor> Doctors { get; set; } = new List<Doctor>();
-
-    public virtual ICollection<Pateint> Pateints { get; set; } = new List<Pateint>();
-
-    public virtual ICollection<Ward> Wards { get; set; } = new List<Ward>();
+  
 }
